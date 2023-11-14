@@ -39,10 +39,9 @@ display:flex;
 
 /* 视频播放区域样式 */
 .video-player {
-  flex-grow:2;
-  width: 70%;
-  margin-right: 30rpx;
-  float:left;
+  flex: 2;
+  margin-right: 0;
+  
   
 }
 
@@ -79,8 +78,8 @@ video {
 /* 视频资源列表样式 */
 .video-list {
   flex:1;
-  width: 30%;
-  float:right;
+  width: auto;
+  
   
 }
 
