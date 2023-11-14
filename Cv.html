@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>示例网站</title>
+<title>视频播放网站</title>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -12,23 +12,36 @@
   <nav>
     <ul>
       <li><a href="#">首页</a></li>
-      <li><a href="#">关于我们</a></li>
-      <li><a href="#">产品</a></li>
-      <li><a href="#">联系方式</a></li>
+      <li><a href="#">视频</a></li>
+      <li><a href="#">登录</a></li>
+      <li><a href="#">注册</a></li>
     </ul>
   </nav>
 </header>
 
-<div class="container">
-  <main>
-    <h1>主要内容标题</h1>
-    <p>这里是主要内容的文字...</p>
-  </main>
-  <aside>
-    <h2>侧边栏标题</h2>
-    <p>这里是侧边栏内容...</p>
-  </aside>
-</div>
+<section class="video-player">
+  <video id="videoPlayer" controls>
+    <source src="movie.mp4" type="video/mp4">
+    您的浏览器不支持 HTML5 video 标签。
+  </video>
+</section>
 
+<section class="comments">
+  <h2>评论区</h2>
+  <div id="commentsList">
+    <!-- 评论内容会在这里动态加载 -->
+  </div>
+  <textarea id="commentBox" placeholder="添加评论..."></textarea>
+  <button id="submitComment">提交评论</button>
+</section>
+
+<aside class="video-list">
+  <h2>视频列表</h2>
+  <ul id="videoResources">
+    <!-- 视频资源列表会在这里动态加载 -->
+  </ul>
+</aside>
+
+<script src="scripts.js"></script>
 </body>
 </html>
