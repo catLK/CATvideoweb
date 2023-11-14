@@ -32,6 +32,10 @@ nav a {
   text-decoration: none;
 }
 
+.container{
+display:flex;
+}
+
 /* 视频播放区域样式 */
 .video-player {
   flex:2;
