@@ -41,7 +41,7 @@ display:flex;
   flex:2;
   width: 70%;
   margin-right: 30rpx;
-  float: left;
+  
 }
 
 video {
@@ -78,11 +78,11 @@ video {
 .video-list {
   flex:1;
   width: 30%;
-  float: right;
+  
 }
 
 .video-list h2 {
-  padding: 50rpx;
+  padding: 10rpx;
   background: #f4f4f4;
 }
 
