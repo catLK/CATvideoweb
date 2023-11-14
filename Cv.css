@@ -1,42 +1,103 @@
-body {
-  font-family: Arial, sans-serif;
+/* 重置浏览器默认样式 */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* 导航栏样式 */
 header {
   background: #333;
-  color: white;
-  padding: 10px 0;
+  color: #fff;
+  padding: 1rem;
 }
 
 nav ul {
-  list-style: none;
-  padding: 0;
+  list-style-type: none;
   text-align: center;
 }
 
-nav li {
+nav ul li {
   display: inline;
-  margin: 0 20px;
+  margin-right: 20px;
 }
 
 nav a {
-  color: white;
+  color: #fff;
   text-decoration: none;
 }
 
-.container {
-  display: flex;
+/* 视频播放区域样式 */
+.video-player {
+  width: 70%;
+  margin-right: 30px;
+  float: left;
 }
 
-main {
-  flex: 3;
-  padding: 20px;
+video {
+  width: 100%;
+  max-height: 500px; /* 可根据需要调整 */
 }
 
-aside {
-  flex: 1;
+/* 评论区样式 */
+.comments {
+  width: 70%;
+  margin-right: 30px;
+  float: left;
+  margin-top: 20px;
+}
+
+#commentsList {
+  margin-bottom: 20px;
+}
+
+#commentBox {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#submitComment {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+/* 视频资源列表样式 */
+.video-list {
+  width: 30%;
+  float: right;
+}
+
+.video-list h2 {
+  padding: 10px;
   background: #f4f4f4;
-  padding: 20px;
+}
+
+.video-list ul {
+  list-style-type: none;
+}
+
+.video-list li {
+  padding: 10px;
+  background: #eee;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.video-list li:hover {
+  background: #ddd;
+}
+
+/* 清除浮动 */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
