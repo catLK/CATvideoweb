@@ -24,7 +24,7 @@ nav ul {
 
 nav ul li {
   display: inline;
-  margin-right: 20px;
+  margin-right: 20rpx;
 }
 
 nav a {
@@ -35,37 +35,37 @@ nav a {
 /* 视频播放区域样式 */
 .video-player {
   width: 70%;
-  margin-right: 30px;
+  margin-right: 30rpx;
   float: left;
 }
 
 video {
   width: 100%;
-  max-height: 500px; /* 可根据需要调整 */
+  max-height: 500rpx; /* 可根据需要调整 */
 }
 
 /* 评论区样式 */
 .comments {
   width: 70%;
-  margin-right: 30px;
+  margin-right: 30rpx;
   float: left;
-  margin-top: 20px;
+  margin-top: 20rpx;
 }
 
 #commentsList {
-  margin-bottom: 20px;
+  margin-bottom: 20rpx;
 }
 
 #commentBox {
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 10rpx;
 }
 
 #submitComment {
   display: block;
   width: 100%;
-  padding: 10px;
-  margin-bottom: 20px;
+  padding: 10rpx;
+  margin-bottom: 20rpx;
   cursor: pointer;
 }
 
@@ -76,7 +76,7 @@ video {
 }
 
 .video-list h2 {
-  padding: 10px;
+  padding: 10rpx;
   background: #f4f4f4;
 }
 
@@ -85,9 +85,9 @@ video {
 }
 
 .video-list li {
-  padding: 10px;
+  padding: 10rpx;
   background: #eee;
-  margin-bottom: 5px;
+  margin-bottom: 5rpx;
   cursor: pointer;
 }
 
