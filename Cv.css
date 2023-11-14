@@ -40,8 +40,9 @@ display:flex;
 /* 视频播放区域样式 */
 .video-player {
   flex-grow:2;
-  width: 70%-30rpx;
+  width: 70%;
   margin-right: 30rpx;
+  float:left;
   
 }
 
@@ -79,6 +80,7 @@ video {
 .video-list {
   flex:1;
   width: 30%;
+  float:right;
   
 }
 
