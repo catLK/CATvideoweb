@@ -35,8 +35,8 @@ nav a {
 
 /* 视频播放区域样式 */
 .video-player {
-  flex: 2;
-  margin-right: 0;
+  
+  margin-right: 30rpx;
   float:left;
   width:70%;
   
@@ -75,7 +75,7 @@ video {
 
 /* 视频资源列表样式 */
 .video-list {
-  flex:1;
+  
   width: auto;
   float:right;
   
