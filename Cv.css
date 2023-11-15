@@ -77,6 +77,7 @@ video {
 .video-list {
   flex:1;
   width: auto;
+  float:right;
   
   
 }
