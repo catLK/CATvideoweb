@@ -1,46 +1,29 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<titl>CATVIDEOWEB</title>
-<link rel="stylesheet" href="Cv.css">
+    <meta charset="UTF-8">
+    <title>您的网站标题</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
-<header>
-  <nav>
-    <ul>
-      <li><a href="#">欢迎使用</a></li>
-    </ul>
-  </nav>
-</header>
-
-  
-<section class="video-player">
-  <video id="videoPlayer" controls>
-    <source src="movie.mp4" type="video/mp4">
-    您的浏览器不支持 HTML5 video 标签。
-  </video>
-</section>
-  
-<section class="comments">
-  <h2>评论区</h2>
-  <div id="commentsList">
-    <!-- 评论内容会在这里动态加载 -->
-  
-  <textarea id="commentBox" placeholder="添加评论..."></textarea>
-  <button id="submitComment">提交评论</button>
-</section>
-
-    
-<aside class="video-list">
-  <h2>视频列表</h2>
-  <ul id="videoResources">
-    <!-- 视频资源列表会在这里动态加载 -->
-  </ul>
-</aside>
-  </div>
-<script src="C.js"></script>
+    <div id="container">
+        <header>
+            <h1>网站标题区</h1>
+            <p>欢迎访问-这是本站的欢迎语和简要说明</p>
+        </header>
+        <main>
+            <section id="content">
+                <h2>内容标题区域</h2>
+                <p>这里是主要内容区域。</p>
+            </section>
+            <aside id="sidebar">
+                <h2>用户登录/注册区域</h2>
+                <!-- 登录注册表单 -->
+            </aside>
+        </main>
+        <footer>
+            <p>页脚区域</p>
+        </footer>
+    </div>
 </body>
 </html>
