@@ -1,110 +1,38 @@
-/* 重置浏览器默认样式 */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
+    font-family: Arial, sans-serif;
 }
 
-/* 导航栏样式 */
-header {
-  background: #333;
-  color: #fff;
-  padding: 1rem;
+#container {
+    width: 960px;
+    margin: 0 auto;
 }
 
-nav ul {
-  list-style-type: none;
-  text-align: center;
+header, footer {
+    background-color: #b0e0e6;
+    padding: 20px;
+    text-align: center;
 }
 
-nav ul li {
-  display: inline;
-  margin-right: 20rpx;
+main {
+    display: flex;
+    justify-content: space-between;
 }
 
-nav a {
-  color: #fff;
-  text-decoration: none;
+#content {
+    flex: 3; /* 占据多余空间的3份中的2份 */
+    background-color: #add8e6;
+    padding: 20px;
 }
 
-
-/* 视频播放区域样式 */
-.video-player {
-  
-  margin-right: 30rpx;
-  float:left;
-  width:70%;
-  
-  
+#sidebar {
+    flex: 1; /* 占据多余空间的3份中的1份 */
+    background-color: #87ceeb;
+    padding: 20px;
+    text-align: center;
 }
 
-video {
-  width: 100%;
-  max-height: 500rpx; /* 可根据需要调整 */
-}
-
-/* 评论区样式 */
-.comments {
-  width: 70%;
-  margin-right: 30rpx;
-  float: left;
-  margin-top: 20rpx;
-}
-
-#commentsList {
-  margin-bottom: 20rpx;
-}
-
-#commentBox {
-  width: 100%;
-  margin-bottom: 10rpx;
-}
-
-#submitComment {
-  display: block;
-  width: 100%;
-  padding: 10rpx;
-  margin-bottom: 20rpx;
-  cursor: pointer;
-}
-
-/* 视频资源列表样式 */
-.video-list {
-  
-  width: auto;
-  float:right;
-  
-  
-}
-
-.video-list h2 {
-  padding: 10rpx;
-  background: #f4f4f4;
-}
-
-.video-list ul {
-  list-style-type: none;
-}
-
-.video-list li {
-  padding: 10rpx;
-  background: #eee;
-  margin-bottom: 5rpx;
-  cursor: pointer;
-}
-
-.video-list li:hover {
-  background: #ddd;
-}
-
-/* 清除浮动 */
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
+footer {
+    background-color: #87cefa;
+    padding: 10px;
+    text-align: center;
 }
